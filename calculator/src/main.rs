@@ -10,5 +10,11 @@ fn main() {
     let num1:i32 = num1.trim().parse().expect("enter a valid number");
     let num2:i32 = num2.trim().parse().expect("enter a valid number");
     let sum = num1 + num2;
+    let diff = num1 - num2;
+    let mul = num1 * num2;
+    let div = num1 / num2;
     println!("The sum is: {}", sum);
+    println!("The difference is: {}", diff);
+    println!("The product is: {}", mul);
+    println!("The quotient is: {}", div);
 }
